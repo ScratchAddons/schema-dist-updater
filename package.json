@@ -1,0 +1,25 @@
+{
+  "name": "sa-schema-dist-updater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScratchAddons/schema-dist-updater.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ScratchAddons/schema-dist-updater/issues"
+  },
+  "homepage": "https://github.com/ScratchAddons/schema-dist-updater#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "fs-extra": "^9.0.1",
+    "glob": "^7.1.6",
+    "latest-semver": "^3.0.0"
+  }
+}
