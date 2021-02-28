@@ -20,6 +20,6 @@ let latestVer = latestSemver(verArr).split(".").slice(0, 2).join(".")
 console.log(`Latest version is ${chalk.inverse(latestVer)}.`)
 
 console.log(`Copying latest schema to ${chalk.inverse("dist/schema.json")}.`)
-fs.outputFileSync("dist/schema.json", fs.readFileSync(verObj[latestVer]))
+fs.outputFileSync("dist/schema.json", JSON.stringify(JSON.parse(fs.readFileSync(verObj[latestVer], "utf-8"))))
 
 console.log("All done!")
