@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/ScratchAddons/schema-dist-updater#readme",
   "dependencies": {
-    "chalk": "^4.1.0",
-    "fs-extra": "^9.0.1",
-    "glob": "^7.1.6",
-    "latest-semver": "^3.0.0"
+    "chalk": "^5.2.0",
+    "fs-extra": "^11.1.0",
+    "glob": "^8.1.0",
+    "latest-semver": "^4.0.0"
   }
 }

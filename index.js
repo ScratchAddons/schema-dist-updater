@@ -1,8 +1,8 @@
-const chalk = require("chalk")
-const latestSemver = require("latest-semver")
-const fs = require("fs-extra")
-const glob = require("glob")
-const path = require("path")
+import chalk from 'chalk'
+import latestSemver from 'latest-semver'
+import fs from 'fs-extra'
+import glob from 'glob'
+import path from 'path'
 
 let fileArr = glob.sync("*/*.json")
 console.log(`Found ${chalk.inverse(fileArr.length)} versions/files.`)
