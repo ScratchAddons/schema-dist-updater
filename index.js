@@ -1,10 +1,10 @@
 import chalk from 'chalk'
 import latestSemver from 'latest-semver'
 import fs from 'fs-extra'
-import glob from 'glob'
+import globSync from 'glob'
 import path from 'path'
 
-let fileArr = glob.sync("*/*.json")
+let fileArr = globSync("*/*.json")
 console.log(`Found ${chalk.inverse(fileArr.length)} versions/files.`)
 
 let verObj = {}
