@@ -1,7 +1,7 @@
 import chalk from 'chalk'
 import latestSemver from 'latest-semver'
 import fs from 'fs-extra'
-import globSync from 'glob'
+import { globSync } from 'glob'
 import path from 'path'
 
 let fileArr = globSync("*/*.json")
